@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <form>
+
+    <label for="email">Enter Email ID:</label>
+    <input type="text" id="email" placeholder="Enter your email ID:">
+    <br/>
+    <br/>
+    <label for="password">Enter Password:</label>
+    <input type="text" id="password" placeholder="Enter your password:">
+    <br/>
+    <br/>
+    <input type="submit" value="Submit Button">
+    <br/>
+    <br/>
+    <button>Click here</button>
+    <br/>
+    <br/>
+    </form> -->
+
+
+    <!-- <form>
+
+        <fieldset>
+
+        <legend>Demo of forms</legend>
+        <label for="datepicker">Choose Date:</label>
+        <input type="date" id="datepicker">
+        <br/>
+        <br/>
+
+        <label for="selector1">Choose Your dishe:</label>
+        <select name="dishes" id="selector1">
+        <option value="maggie">Maggie</option>
+        <option value="fied rice">Fied Rice</option>
+        <option value="sweet chips">Sweet Chips</option>
+        </select>
+        <br/>
+        <br/>
+        <button>Main Hu Button</button>
+        <br>
+        <br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="5" placeholder="Enter Text Here"></textarea>
+        </fieldset>
+
+
+    </form> -->
+        <form>
+        
+        <!-- Label,Input Demo -->
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname">
+        <br/>
+        <br/>
+
+        <label for="button1">Submit Button:</label>
+        <input type="submit" name="button1" id="button1" value="Thank you">
+        <br/>
+        <br/>
+
+        <!-- Radio Button -->
+        <label for="radio Button">radio Button:</label>
+        <input type="radio" name="radio" id="radio1">
+        
+
+        <label for="radio Button">radio Button:</label>
+        <input type="radio" name="radio" id="radio2">
+        
+
+        <label for="radio Button">radio Button:</label>
+        <input type="radio" name="radio" id="radio3">
+        <br/>
+        <br/>
+        <!-- CheckBox -->
+        <label for="checkbox1">English</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        
+        <label for="checkbox2">Maths</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br/>
+        <br/>
+
+        <!-- file selector-->
+        <label for="fileselect1">Choose file:</label>
+        <input type="file" name="fileselect1" id="fileselect1">
+        <br/>
+        
+        <!-- Image input form -->
+        <input type="image" name="image" id="image" alt="click Here" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAACwsLCnp6cjIyMgICB7e3skJCQbGxsXFxcQEBAdHR0PDw8EBAQZGRldXV3s7OwxMTEpKSm9vb2/v7/29vZISEjh4eGFhYWOjo6urq47OzuamprIyMi2trY0NDTX19eIiIhTU1NiYmJtbW1CQkKP2tSxAAAETUlEQVR4nO3bgVbaShAGYEd33M3uTiyxtF69pdbq+7/inVm4tiAQUOKSnP87h2JN8OzPTDYkIRcXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Hh5+6X2GIb0lcz1vPY4BrOwfKKPy9ojGcicXr081h7MIK5K/VZ1vK49miHc0ZoJtur1ekL69r32iE5tM+H0WvVtQqJF7UGd1LaE02rVrQmJ7qbzAWBHQsqTadVdCafTqrsTEv2qPbiT2JeQ6Lb28E5gf0J6Gn+r9iQk+mfss2pvQoojb9XehHrI8TTqMwD9NSytWnuYH3BYQkpfaw/03Q5MSHRzRrPq98X95aEWT4flkzNq1SvpHe57NefQqvNvg+UzN/Vn1YdBA6p/Kwe86x/iR3U/agb8MnxA9btiq/45+flBsv/v1GvV59MkzN1sNov70ldr1ZtT5COapRzybP+bVWlWPU3CZhZnPIt+3zpSqVW3Jjy6cbnzueHQ9a03q3DkuCVh9EcnjFo/z4l7V3w4i4Q+NseEy/Zv18Wg22LfylLh5PhHE4pfbnzJu4PWf66cUKhJ4ixhThYzp1Q6VgIvdwUxBYocVqsnjpJcSrZuE/XVfxYLSUpbdh83lROSi+JYE2YWnTZckux0mI3LEqxGGjj6ILFMKdJlcZJ0b6dPmf1qsT3svfBZ059dDTkHHy2hJ5+oaaPrqCNxxC7GoLkjM0UNbnMKC7tWK+WcS5QD63rZ62LP2X4mfS1vzFn1t0OnMWw7lGRj02Bs3dpG/R9np524fKRsxfE56ZhXdbKErS1ulov15zbkN5Prz08PuJHQ25BKQlfyJg4auQTKwYbty7PFsIRhlZA7sYQhMuXWFrMV2Ivf3LW6Ch9rNmuomxWHuEzohVOrz1oP0UlHi6RRlxHKYiu4MIuulktCrZk92+IQfVMqmP/KeAafabQpHesmtEzYtI1j7zM50W0rrCdk15T9nyPdT3h6TdguE4pWkF2m2L7ueip9Ln1e305cI9nrvM9l69KJhGzOaHTKbHWytKHbpBlbJyylkPYJSNgmX21iTadvEUVbotuuxNW+w44tXK1ji83jQ/10ab8Iy3c+snOcrRcT2U7Pqhb0DfA6/fCqOJltjfIK2wHqalIW6e91gsoh1mvQ4nOO8auejvqE8zRc9TzNxfwnveNw6RjaoHUvt81fBk14FlehrobLJ+dwzts8Lq4Odn/gdQtrjHO5bnGkg+em0V7RP/DqWjveS924Blyu44+1QYv+Go79G269CX9N+fs0o2/QYn8NR96gxb6E0/ga7e6EL+Nv0GJXQplCgxY7Ek7oRq83CWVCDVpsq+G0bg3acs/MdBq02Ew4vVv0No4P72uP5/TW7z+cWIMWf91D+vBYezDDuPx/FzHBBl25neQMuu7H/bTvxwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADjMf61BMvnR+atXAAAAAElFTkSuQmCC" height="20px" width="40px">
+        <br/>
+        <br/>
+        <!-- password form -->
+        <label for="password1">Enter Your Password</label>
+        <input type="password" name="password1" id="password1">
+        <br>
+        <br>
+        <!-- Date picker form -->
+        <label for="date1">Choose the Date Of Brith:</label>
+        <input type="date" name="date1" id="date1">
+
+
+    </form>
+
+
+</body>
+</html>
